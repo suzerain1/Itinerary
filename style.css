@@ -150,3 +150,90 @@ footer {
 .close:hover {
   color: #bbb;
 }
+
+/* Suggestion Box */
+.suggestion-box {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.95);
+  /* border: 2px solid #00bcd4; */
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+  text-align: center;
+}
+
+.suggestion-box h2 {
+  color: #007c91;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#sugg ul {
+  padding: 0;
+}
+
+#sugg ul li {
+  border: 1px solid rgb(206, 203, 203);
+  border-radius: 8px;
+  margin-bottom: 5px;
+  padding: 5px;
+  opacity: 0.9;
+}
+
+#sugg .title {
+  font-weight: bold;
+}
+
+#sugg .desc {
+  font-style: italic;
+}
+
+.suggestion-box input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin: 10px 0px 10px 0;
+}
+
+.suggestion-box textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.suggestion-box button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  background-color: #00acc1;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.suggestion-box button:hover {
+  background-color: #008c9e;
+}
+
+#saved-msg {
+  margin-top: 0.75rem;
+  font-style: italic;
+  color: #00796b;
+}
+

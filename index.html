@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Zambales 2025 with Buldit Boyz</title>
+  <link rel="icon" href="https://em-content.zobj.net/thumbs/120/apple/354/beach-with-umbrella_1f3d6-fe0f.png" type="image/png" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
@@ -19,6 +20,7 @@
 <nav class="tab-nav">
   <button class="tab-button active" data-target="day1">Day 1</button>
   <button class="tab-button" data-target="day2">Day 2</button>
+  <button class="tab-button" data-target="sugg">Suggestions</button>
   <button class="tab-button" data-target="squad">The Squad</button>
 </nav>
 
@@ -63,6 +65,29 @@
     </ul>
   </div>
 
+  <div id="sugg" class="tab-content card animate__animated animate__fadeInUp animate__delay-1.5s">
+    <h2 class="day-title">Suggestions:</h2>
+    <ul id="suggestion-list" class="day-list">
+      <li>
+        <p class="title">Jeee</p>
+        <p class="desc">This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige</p>
+      </li>
+      <li>
+        <p class="title">Jeee</p>
+        <p class="desc">This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige This a test only hheheheh sige</p>
+      </li>
+    </ul>
+    
+    <section class="suggestion-box">
+      <h3>Got a suggestion?</h3>
+      <input type="text" id="name" placeholder="Your Name" />
+      <textarea id="suggestion" placeholder="Type here..."></textarea>
+      <br>
+      <button onclick="submitSuggestion()">Submit</button>
+      <p id="saved-msg"></p>
+    </section>
+  </div>
+
   <div id="squad" class="tab-content card animate__animated animate__fadeInUp animate__delay-1.5s">
     <h2 class="day-title">The Squad</h2>
     <ul class="day-list">
@@ -89,6 +114,6 @@
   🏖️ Let's make memories at the beach – Buldit Boyz, 2025
 </footer>
 
-<script src="script.js"></script>
+<script type="module" src="script.js"></script>
 </body>
 </html>
