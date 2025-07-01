@@ -147,3 +147,10 @@ function updateCountdown() {
 
 updateCountdown(); // Run immediately
 setInterval(updateCountdown, 1000); // Then update every second
+
+
+// Head animation
+document.querySelectorAll('.head').forEach(head => {
+  const delay = (Math.random() * 1.5).toFixed(2); // random delay between 0s and 1.5s
+  head.style.animationDelay = `${delay}s`;
+});
